@@ -22,7 +22,7 @@ const toggleBurger = () => {
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#testimonials">Testimonials</a>
-                <a href="#contacts">Contacts</a>
+                <a href="#footer">Contacts</a>
             </div>
             <div onClick={toggleBurger} className={`burger ${active ? 'active' : ''}`}>
                 <span></span>
