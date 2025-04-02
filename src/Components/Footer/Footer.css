@@ -1,0 +1,38 @@
+.footer__wrapp{
+display: flex;
+justify-content: space-around;
+gap: 40px;
+@media (max-width: 900px) {
+  flex-wrap: wrap;
+    padding: 20px;
+}
+h4{
+    margin-bottom: 15px;
+
+}
+}
+.footer__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 105px;
+    P{
+        color:#272D38;
+    }
+}
+.text1{
+    max-width: 200px;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    /* margin-bottom: 20px; */
+}
+.footer__wrapper{
+
+
+background-color: #f6f6f6;
+}

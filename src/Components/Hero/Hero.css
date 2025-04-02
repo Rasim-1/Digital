@@ -1,0 +1,49 @@
+.hero__wrapp{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+    /* gap: 40px; */
+
+    @media (max-width:900px) {
+       flex-direction: column;
+    
+    }
+}
+.hero__wrapp-about{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+    h2{
+        max-width: 600px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+text-transform: uppercase;
+    }
+    p{
+       
+        max-width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    a{
+        background-color:  #8EADD5;
+text-transform: uppercase;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 15px 30px;
+        width: max-content;
+        text-decoration: none;
+    }
+
+
+}
+
+.hero__img{
+    width: 100%;
+}

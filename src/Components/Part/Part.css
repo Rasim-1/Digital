@@ -1,0 +1,51 @@
+.Part__wrapp{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+background-color: #f6f6f6;
+border-radius: 20px;
+margin-bottom: 150px;
+    /* gap: 40px; */
+    @media (max-width: 900px) {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+}
+.Part__wrapp-about{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+    h2{
+        max-width: 500px;
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 64px;
+/* text-transform: uppercase; */
+    }
+    p{
+       
+        max-width: 350px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    a{
+        text-decoration: none;
+        background-color:  #8EADD5;
+text-transform: uppercase;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 15px 30px;
+        width: max-content;
+    }
+
+
+}
+
+.Part__img{
+    width: 100%;
+}

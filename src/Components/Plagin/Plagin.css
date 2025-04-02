@@ -1,0 +1,36 @@
+.plagin__wrapp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-top: 150px;
+margin-bottom: 150px;
+@media (max-width: 900px) {
+    flex-direction: column;
+    padding: 20px;
+}
+}
+.plagin-img{
+    width: 100%;
+
+}
+.plagin__wrapp-about{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h2{
+        max-width: 600px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+text-transform: uppercase;
+    }
+    p{
+       
+        max-width: 365px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+.arrow{
+    width: max-content;
+}
